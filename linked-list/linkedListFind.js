@@ -1,4 +1,4 @@
-// Write a function, linkedListFind, that takes in the head of a linked list and a target value. 
+// Write a function, linkedListFind, that takes in the head of a linked list and a target value.
 // The function should return a boolean indicating whether or not the linked list contains the target.
 
 class Node {
@@ -10,20 +10,20 @@ class Node {
 
 // Iterative
 const linkedListFind = (head, target) => {
-    let current = head;
-    while (current !== null) {
-      if (current.val === target) return true;
-      current = current.next;
-    }
-    return false;
-  };
+  let current = head;
+  while (current !== null) {
+    if (current.val === target) return true;
+    current = current.next;
+  }
+  return false;
+};
 
 // Recursive
 const linkedListFindRecursive = (head, target) => {
-    if (head === null) return false;
-    if (head.val === target) return true;
-    return linkedListFind(head.next, target);
-  };
+  if (head === null) return false;
+  if (head.val === target) return true;
+  return linkedListFind(head.next, target);
+};
 
 // test 0
 const a = new Node("a");
@@ -91,9 +91,3 @@ const node1_2 = new Node(42);
 
 console.log(linkedListFind(node1_2, 100)); // false
 
-
-
-
-
-
-  
