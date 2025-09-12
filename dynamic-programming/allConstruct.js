@@ -4,7 +4,7 @@
 
 // Returned a 2d array indicating all the unique ways that can we construct the target with the words in the wordBank.
 // return [] if there's no way
-
+console.log('this is a test come on man and just work')
 // Brute force
 const allConstructBruteForce = (target, wordBank) => {
     if (target === '') return [[]];

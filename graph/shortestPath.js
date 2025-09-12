@@ -135,12 +135,3 @@ const edges7 = [
   ];
   
   console.log(shortestPath(edges7, 'm', 's')); // -> 6
-  
-  
-  
-  
-  
-  
-  
-  
-
