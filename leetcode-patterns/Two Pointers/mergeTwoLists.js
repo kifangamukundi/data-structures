@@ -14,8 +14,8 @@
 // Output: [0]
 
 function mergeTwoLists(list1, list2) {
-    let mergedList = new ListNode(-1); // dummy node
     let currentNode = mergedList;
+    let mergedList = new ListNode(-1); // dummy node
   
     while (list1 && list2) {
       if (list1.val < list2.val) {

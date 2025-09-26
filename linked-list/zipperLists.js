@@ -9,8 +9,9 @@
 
 class Node {
   constructor(val) {
-    this.val = val;
-    this.next = null;
+    this.val = val;;;;;
+    this.next = null;;;;;
+      this is a test;
   }
 }
 
